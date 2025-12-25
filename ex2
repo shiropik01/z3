@@ -1,0 +1,19 @@
+print("Программа которая выводит, сколько людей стоят в очереди между Александрой и Левоном.")
+
+count = 0
+found_aleksandra = False
+between_count = 0
+
+while True:
+    name = input("Введите имя участника: ")
+
+    if name == "Александра":
+        found_aleksandra = True
+        continue
+
+    if name == "Левон":
+        break
+
+    if found_aleksandra:
+        between_count += 1
+print(f"Между Александрой и Левоном находится: {between_count} человек(а)")
