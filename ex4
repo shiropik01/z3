@@ -1,0 +1,23 @@
+# 1. int - количество студентов
+students_count = 25
+
+# 2. float - температура
+temperature = 23.5
+
+# 3. str - логин пользователя
+username = "ivanov_ivan"
+
+# 4. bool - включение уведомлений
+notifications_enabled = True
+
+# 5. list - список фильмов
+favorite_movies = ["Матрица", "Начало", "Интерстеллар"]
+
+# 6. tuple - координаты точки
+coordinates = (10.5, 20.3)
+
+# 7. set - уникальные ID товаров
+product_ids = {1001, 1002, 1003}
+
+# 8. dict - страны и столицы
+country_capital = {"Россия": "Москва", "Франция": "Париж", "Япония": "Токио"}
