@@ -1,19 +1,20 @@
-print("Программа которая выводит, сколько людей стоят в очереди между Александрой и Левоном.")
+my_list = [1, 2, 3]
+print("Исходный список:", my_list)
 
-count = 0
-found_aleksandra = False
-between_count = 0
+# Изменяем первый элемент
+my_list[0] = 100
+print("После изменения:", my_list)
 
-while True:
-    name = input("Введите имя участника: ")
+# Создаем кортеж
+my_tuple = (1, 2, 3)
+print("Исходный кортеж:", my_tuple)
 
-    if name == "Александра":
-        found_aleksandra = True
-        continue
+my_tuple[0] = 100
+print("Ошибка при изменении кортежа:", e)
 
-    if name == "Левон":
-        break
+# Создаем строку
+my_string = "cat"
+print("Исходная строка:", my_string)
 
-    if found_aleksandra:
-        between_count += 1
-print(f"Между Александрой и Левоном находится: {between_count} человек(а)")
+my_string[0] = 'b'
+print("Ошибка при изменении строки:", e)
